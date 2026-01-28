@@ -20,6 +20,31 @@ This project recommends similar movies using TF-IDF vectorization and SVD dimens
 
 🚀 Deployment-ready (Render, Heroku, Docker)
 
+⚡ Quick Start
+Requirements
+
+Python 3.10+
+
+pip
+
+Git
+
+Installation
+git clone https://github.com/yourusername/movie-recommendation-system.git
+cd movie-recommendation-system
+
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+
+Open:
+👉 http://localhost:8000
+
+
 🛠 Tech Stack
 
 Backend: Django, Python
